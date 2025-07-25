@@ -311,8 +311,37 @@ font-family: Inter;
 font-size: 15px;
 font-weight: 500;
 line-height: 20px;
+margin-bottom: 80px;
 
 }
 
 
+/* added section images */
+.offer-box {
+
+background-image: url(../images/Rectangle\ 2.png);
+background-repeat: no-repeat;
+background-position: bottom ;
+background-size:contain;
+width: 100%;
+
+}
+
+ .gift-box {
+
+  width: 674.82px;
+height: 577.96px;
+}
+
+.discount-badge {
+width: 305.69px;
+height: 505.69px;
+ 
+} 
+
+.gift-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  }
 
