@@ -28,6 +28,7 @@ background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
   align-items: center;
   text-align: center;
   border-radius: 16px;
+  margin-bottom: 80px;
 
 }
 
@@ -57,9 +58,47 @@ font-family: "Merriweather", serif;
   font-variation-settings:
     "wdth" 100;
 
+}
+
+/* style main discount part */
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;}
+
+.new-year-img {
+  width: 500px;
+  height: auto;
+  object-fit: cover; 
+  display: block;
+}
+.discount h3{
+    color: rgb(255, 0, 0);
+font-size: 50px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+}
+.discount p{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 15px;
 
 }
-   
+.discount h2{
+    color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 25px;
+
+
+}
 
 
 
