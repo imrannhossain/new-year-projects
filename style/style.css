@@ -347,11 +347,13 @@ height: 505.69px;
   }
 
 /* added item image */
-.item-img{
- width: 500px;
-height: 420px;
-margin-left: 3px;
-
+.item-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+ 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .items h4{
@@ -448,7 +450,7 @@ hr {
 }
 .social-icons img {
   width: 30px;
-  height: 30px;
+  height: 40px;
 }
 .footer-bottom{
   display: flex;
@@ -503,3 +505,76 @@ line-height: 30px;
   color: white;
 
 }
+
+
+
+
+/* Large screens (Desktops) */
+@media (max-width: 1200px) {
+  /* Adjust padding, gaps, font-size etc. */
+}
+
+/* Laptops & Tablets Landscape */
+@media (max-width: 1024px) {
+  .party-des,
+  .offers,
+  .gift-boxes,
+  .footer-content,
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .offer-left, .offer-center, .offer-right {
+    width: 100%;
+  }
+}
+
+/* Tablets Portrait */
+@media (max-width: 768px) {
+  .banner,
+  .nav,
+  .footer-content {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-position img {
+    width: 80%;
+  }
+
+  .btn-main {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .nav-title {
+    font-size: 20px;
+  }
+
+  .banner h3 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .btn-main, .btn-bg {
+    width: 100%;
+  }
+
+  .item-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
